@@ -1,0 +1,405 @@
+/* Main website styles */
+
+.general-spacer-med{
+    height:75px;
+}
+
+.general-spacer{
+    height:50px;
+}
+
+.general-spacer-small{
+    height:25px;
+}
+
+.general-spacer-xsmall{
+    height:15px;
+}
+
+.section-heading{
+    font-family: 'Imperial Script', cursive;
+    font-size: 60px;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px #909090;
+    text-decoration: underline;
+    text-decoration-thickness: 0.5px;
+}
+
+.section-intro{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.section-details{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight:900;
+}
+
+.body{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://localhost:4000/desktop/WeddingPortfolioWebsite/images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    box-shadow: 0 10px 15px whitesmoke inset;
+}
+
+/*#big-bg{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://localhost:4000/desktop/WeddingPortfolioWebsite/images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+} */
+
+.form-message-rec{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+
+
+#myb2tBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: grey; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+#myb2tBtn:hover {
+    background-color: black; /* Add a dark-grey background on hover */
+  }
+
+/* Website Info Styles */
+
+ #wedding-details-container{
+    display:flex;
+    justify-content: space-evenly;
+} 
+
+.wedding-details-one-container{
+    text-align: center;
+}
+
+.wedding-details-one-container{
+    padding: 20px;
+    box-shadow: 0px 0px 5px white;
+    background-color: #F5F5F5;
+    margin: 50px;
+}
+
+.wed-details{
+    text-decoration: underline;
+    text-decoration-thickness: 0.5px;
+    text-shadow: 2px 2px 2px #909090;
+    font-size:60px;
+}
+
+/* RSVP Section Styles */
+
+#RSVP-container{
+    display:flex;
+    justify-content: space-evenly;
+    /* background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://localhost:4000/desktop/WeddingPortfolioWebsite/images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; */
+}
+
+#RSVP-content{
+    text-align: center;
+    margin: 50px;
+}
+
+#RSVP-content > form > label{
+    font-weight:900;
+}
+
+#RSVP-content{
+    background-color:white;
+    padding: 30px;
+    box-shadow: 0px 0px 5px white;
+    background-color: #F5F5F5;
+}
+
+/* Registry Section Styles */
+
+#registry-container{
+    display: grid;
+    grid: 'blank intro contactform blank2';
+    padding: 30px;
+}
+
+#left-side-reg{
+    grid-area: intro;
+    text-align: left;
+    padding-right:75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    background-color: #f5f5f5;
+}
+
+#right-side-reg{
+    grid-area: contactform;
+    justify-content: center;
+    text-align: right;
+    padding-left:75px;
+    padding-right:30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f5f5f5;
+}
+
+#right-side-reg > form > label{
+    font-weight:900;
+}
+
+.reg-heading{
+    margin-top:-10px;
+    font-size: 70px;
+}
+
+.reg-contact-form{
+    margin-top:25px;
+}
+
+.reg-message-rec{
+    font-size: 18px;
+}
+
+/* Gallery Section Styles */
+
+#gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+
+}
+
+
+#gallery-container > img{
+    height:250px;
+}
+
+.gal-heading{
+    text-decoration: underline;
+    text-decoration-thickness: 0.5px;
+    text-align: center;
+}
+
+#start-gal-cont{
+    box-shadow: 0px 0px 5px white;
+    padding:30px;
+    margin: 20px;
+    background-color: #F5F5F5;
+}
+
+/* Our Story Section */
+
+#our-story-container{
+    display:flex;
+    justify-content: center;
+}
+
+#inside-our-story{
+        background-color:white;
+        padding: 50px;
+        box-shadow: 0px 0px 5px white;
+        background-color: #F5F5F5;
+        text-align: center;
+    }
+
+/* Footer Styles */
+.footer{
+    display:grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: grey;
+    padding-top:30px;
+    padding-bottom:20px;
+}
+
+.backtotop{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+    text-shadow: 0px 0px 7px black;
+    color: white;
+    transition: transform .2s;
+}
+
+.backtotop:hover{
+    transform: scale(1.1);
+}
+
+#b2tbtn{
+    padding-left:10px;
+}
+
+#copyright-author{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+    text-shadow: 0px 0px 7px white;
+}
+
+#a-link:active{
+    text-decoration: none;
+    color: white;
+}
+
+#a-link{
+    text-decoration: none;
+    color: white;  
+    
+}
+
+#a-link:hover{
+    text-decoration: none;
+    color: white;  
+}
+
+/* Header Styles: Logo & Menu Section */
+
+.big-pic-bg{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://localhost:4000/desktop/WeddingPortfolioWebsite/images/wedding-gallery14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 0px 25px 20px white;
+}
+
+#acting-spacer{
+    height:650px;
+}
+
+#start-header-container-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.end-header-container-grid{
+    display: grid;
+    grid-template-columns: auto auto auto; /* setting this as auto makes it center on top of one another */
+    grid-template-rows: 1fr;
+    align-content: center;
+    justify-content: center;
+}
+
+.logo-name-section-flex{
+    font-family: 'Imperial Script', cursive;
+    font-size: 62px;
+    font-weight: 500;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    filter: brightness(100%);
+}
+
+#flex-logo-center{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.menu-items:hover{
+    text-decoration:underline;
+}
+
+.menu-items > a{
+    text-decoration:none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px black;   
+}
+
+#menu-cont{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid: 
+        'menu1 blank menu2 blank2 menu3 blank3 menu4 blank4 menu5';
+}
+
+.men-item1{
+    grid-area: menu1;
+}
+
+.men-item2{
+    grid-area: menu2;
+}
+
+.men-item3{
+    grid-area: menu3;
+}
+
+.men-item4{
+    grid-area: menu4;
+}
+
+.men-item5{
+    grid-area: menu5;
+}
+
+.blank{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+/* Media Queries */
+
+/* MQ for both Tablet & Mobile, for screen sizes smaller than 1008px */
+
+@media screen and (max-width:1007px){
+
+    /* Making menu items font smaller */
+    .menu-items > a{
+        text-decoration:none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        color: white;
+        font-weight: 600;
+        text-shadow: 2px 2px 2px black;   
+    }
+
+    #registry-container{
+        display: block;
+        padding: 30px;
+    }
+
+    #right-side-reg{
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    #inside-our-story{
+        text-align: center;
+    }
+
+}
+
+
+/* MQ for both Mobile only, for screen sizes smaller than 641px */
+
+@media screen and (max-width:640px){
+    #registry-container{
+        font-size: 15px;
+        line-height: 1.2;
+    }
+}

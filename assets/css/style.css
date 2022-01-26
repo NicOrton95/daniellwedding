@@ -43,7 +43,7 @@ body{
 }
 
 .body{
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../images/bg2.jpg); /*x3 ../ - 1st gets us to css folder, 2nd to the assets & 3rd back to root, will have to test it, may only need 2 ../ */
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -107,7 +107,7 @@ body{
 #RSVP-container{
     display:flex;
     justify-content: space-evenly;
-    /* background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../images/bg2.jpg);
+    /* background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%; */
@@ -282,7 +282,7 @@ body{
 /* Header Styles: Logo & Menu Section */
 
 .big-pic-bg{
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../images/wedding-gallery14.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/wedding-gallery14.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
